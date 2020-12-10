@@ -9,10 +9,22 @@
     
 </head>
 <body>
-    <h2>JavaScript</h2>
-    <p>Saltos de linea en un cuadro emergente</p>
-    <button onclick="alert('hola\n?como estas')">Pruebelo</button>
-    
+    <p>
+        haga clic en "pruebelo". Espere 3 segundos.
+        La pagina alertara "hola"
+    </p>
+    <p>
+        hla clic en "Detener" para evitar que se ejecute 
+        la primera funcion
+    </p>
+    <p>
+        Debe hacer clic en "Detener" antes de que pasen
+        los 3 segundo
+    </p>
+
+    <button onclick="myVar=setTimeout(myFunction,3000)">inicial</button>
+
+    <button onclick="clearTimeout(myVar)">detener</button>
 <script src="js/myScript.js"></script>
 </body>
 </html>
